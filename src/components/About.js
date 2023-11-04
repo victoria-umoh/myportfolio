@@ -15,19 +15,19 @@ class About extends Component{
                 <section className="about_area section_gap">
                     <div className="container">
                     <div className="row">
-                            <div className="col-lg-12">
-                                <div className="main_title text-center mt-5">
+                            <div className="col-lg-12 mt-5">
+                                <div className="main_title text-center mb-5">
                                 <h2>About Me </h2>
                                 </div>
                             </div>
                         </div>
-                        <div className="row justify-content-start align-items-center">
-                            <div className="col-lg-5">
-                                <div className="about_img">
+                        <div className="row mx-5">
+                            <div className="col-md-6 px-5">
+                                <div className="about_img mx-5 px5">
                                 <img className="rounded-pill" src="asset/img/banner/vic.jpg" alt="" width="300" />
                                 </div>
                             </div>
-                            <div className="offset-lg-1 col-lg-5">
+                            <div className="col-md-6">
                                 <div className="text-left">
                                     <p>My name is <strong>Victoria Umoh, </strong> I am a skilled software developer with expertise in both front-end and back-end technologies.
                                         With a solid foundation in programming languages, 
@@ -248,7 +248,7 @@ class About extends Component{
                                     <p><b>Technologies Used: </b> 
                                         <span>HTML5, CSS3, Bootstrap, JavaScript, Ajax, mySQL, jquery, PHP</span>
                                     </p>
-                                    <a href="https://early-care.netlify.app" target="_blank" rel="noopener noreferrer" className="primary_btn text-decoration-none"><span>Visit Project</span></a>
+                                    <a href="https://early-care.netlify.app" className="primary_btn text-decoration-none"><span>Visit Project</span></a>
                                     </div>
                                 </div>
                                 </div>
@@ -258,7 +258,7 @@ class About extends Component{
                                     <div className="single_portfolio">
                                     <img className="img-fluid w-100" src="asset/projects/chow.png" alt="" />
                                     <div className="overlay" />
-                                    <a href="asset/projects/earlycare.png" className="img-gal">
+                                    <a href="asset/projects/chow.png" className="img-gal">
                                         <div className="icon">
                                         <span className="lnr lnr-cross" />
                                         </div>
@@ -269,10 +269,31 @@ class About extends Component{
                                     <p><b>Technologies Used: </b> 
                                         <span>HTML5, CSS3, Bootstrap, JavaScript, mySQL, jquery, Laravel</span>
                                     </p>
-                                    <a href="https://github.com/victoria-umoh/chow" target="_blank" rel="noopener noreferrer" class="primary_btn text-decoration-none"><span>Visit Project</span></a>
+                                    <a href="https://github.com/victoria-umoh/chow" class="primary_btn text-decoration-none"><span>Visit Project</span></a>
                                     </div>
                                 </div>
                                 </div>
+
+                                <div className="col-lg-4 col-md-6 all popular">
+                                <div className="portfolio_box w-100 h-100">
+                                    <div className="single_portfolio">
+                                    <img className="img-fluid w-100" src="asset/projects/schoolhouse.png" alt="" />
+                                    <div className="overlay" />
+                                    <a href="asset/projects/schoolhouse.png" className="img-gal">
+                                        <div className="icon">
+                                        <span className="lnr lnr-cross" />
+                                        </div>
+                                    </a>
+                                    </div>
+                                    <div className="short_info">
+                                    <h4>School Registration Website</h4><br></br>
+                                    <p><b>Technologies Used: </b> 
+                                        <span>HTML5, CSS3, Bootstrap, JavaScript, JQuery</span>
+                                    </p>
+                                    <a href="https://school-house.netlify.app/" class="primary_btn text-decoration-none"><span>Visit Project</span></a>
+                                    </div>
+                                </div>
+                            </div>
 
                                 {/* <div className="col-lg-4 col-md-6 all upcoming">
                                 <div className="portfolio_box">
@@ -319,9 +340,9 @@ class About extends Component{
                                 <div className="col-lg-4 col-md-6 all upcoming">
                                 <div className="portfolio_box">
                                     <div className="single_portfolio">
-                                    <img className="img-fluid w-100" src="asset/img/portfolio/ecommerce.jpg" alt="" />
+                                    <img className="img-fluid w-100" src="asset/projects/ecommerce.jpg" alt="" />
                                     <div className="overlay" />
-                                    <a href="asset/img/portfolio/p6.jpg" className="img-gal">
+                                    <a href="asset/projects/ecommerce.jpg" className="img-gal">
                                         <div className="icon">
                                         <span className="lnr lnr-cross" />
                                         </div>
@@ -340,9 +361,9 @@ class About extends Component{
                                 <div className="col-lg-4 col-md-6 all upcoming">
                                 <div className="portfolio_box">
                                     <div className="single_portfolio">
-                                    <img className="img-fluid w-100" src="asset/img/portfolio/realestate.jpg" alt="" />
+                                    <img className="img-fluid w-100" src="asset/projects/realestate.jpg" alt="" />
                                     <div className="overlay" />
-                                    <a href="asset/img/portfolio/p6.jpg" className="img-gal">
+                                    <a href="asset/projects/realestate.jpg" className="img-gal">
                                         <div className="icon">
                                         <span className="lnr lnr-cross" />
                                         </div>

@@ -11,10 +11,10 @@ class Footer extends Component {
     render(){
         return (
             <div>
-                <footer class="footer_area">
+                <footer>
                     <div class="container">
-                        <div class="row footer_bottom justify-content-center">
-                            <h5 class="col-lg-8 col-sm-12 footer-text">
+                        <div class="row justify-content-center mt-0">
+                            <h5 class="text-center">
                                 <strong>Copyright &copy; {this.state.currentYear} | All rights reserved</strong>
                                 {/* <script>document.write(new Date().getFullYear());</script>
                                 <script>document.querySelector('.footer-text').innerHTML += new Date().getFullYear();</script> */}
