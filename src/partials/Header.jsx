@@ -49,7 +49,7 @@ class Header extends Component {
                             <nav class="navbar navbar-expand-lg navbar-light">
                                 <div class="container">
                                     
-                                    <h1><a href="" class="text-decoration-none text-primary"><Link class="nav-link" to="/">VICTORIA</Link></a></h1>
+                                    <h1><Link class="nav-link" to="/">VICTORIA</Link></h1>
                                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                         <span class="icon-bar"></span>
@@ -58,10 +58,10 @@ class Header extends Component {
                                     </button>
                                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                                         <ul class="nav navbar-nav menu_nav justify-content-end">
-                                            <li class="nav-item"><a href=""><Link class="nav-link text-decoration-none" to="/">Home</Link></a></li>
-                                            <li class="nav-item"><a href="#"><Link class="nav-link" to="/about">About</Link></a></li>
-                                            <li class="nav-item"><a href=""><Link class="nav-link" to="/portfolio">Portfolio</Link></a></li>
-                                            <li class="nav-item"><a href=""><Link class="nav-link" to="/contact">Contact</Link></a></li>
+                                            <li class="nav-item"><Link class="nav-link text-decoration-none" to="/">Home</Link></li>
+                                            <li class="nav-item"><Link class="nav-link" to="/about">About</Link></li>
+                                            <li class="nav-item"><Link class="nav-link" to="/portfolio">Portfolio</Link></li>
+                                            <li class="nav-item"><Link class="nav-link" to="/contact">Contact</Link></li>
                                         </ul>
                                     </div>
                                 </div>

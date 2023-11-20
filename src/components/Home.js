@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Contact from './Contact';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -28,14 +28,12 @@ class Home extends Component {
                                         
                                     </div>
                                     <div className="d-flex align-items-center">
-                                        {/* <a className="primary_btn tr-bg text-decoration-none" href="#"><span><Link class="text-decoration-none" to="/contact">Hire Me</Link></span></a>
-                                        <a className="primary_btn tr-bg text-decoration-none" href="#"><span>Get CV</span></a> */}
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-5">
                             <div className="home_right_img">
-                                <img className="rounded-pill" src="asset/img/banner/vic.jpg" alt="" width="400" />
+                                <img className="rounded-pill" src="asset/img/banner/vic.jpg" alt="profile photo" width="400" />
                             </div>
                             </div>
                         </div>
@@ -57,7 +55,7 @@ class Home extends Component {
                         <div className="row justify-content-start align-items-center">
                         <div className="col-lg-5">
                             <div className="about_img">
-                            <img className="rounded-pill" src="asset/img/banner/vic.jpg" alt="" width="300" />
+                            <img className="rounded-pill" src="asset/img/banner/vic.jpg" alt="profile photo" width="300" />
                             </div>
                         </div>
                         <div className="offset-lg-1 col-lg-5">
@@ -289,7 +287,7 @@ class Home extends Component {
                                     <p><b>Technologies Used: </b> 
                                         <span>HTML5, CSS3, Bootstrap, JavaScript, Ajax, mySQL, jquery, PHP</span>
                                     </p>
-                                    <a href="https://early-care.netlify.app" target="_blank" class="btn btn-danger btn-lg">Visit Project</a>
+                                    <a href="https://early-care.netlify.app" target="_blank" rel="noopener noreferrer" class="btn btn-danger btn-lg">Visit Project</a>
                                     </div>
                                 </div>
                             </div>
@@ -299,7 +297,7 @@ class Home extends Component {
                                 <div className="single_portfolio">
                                 <img className="img-fluid w-100" src="asset/projects/chow.png" alt="" />
                                 <div className="overlay" />
-                                <a href="asset/projects/earlycare.png" className="img-gal">
+                                <a href="asset/projects/earlycare.png" target="_blank" rel="noopener noreferrer" className="img-gal">
                                     <div className="icon">
                                     <span className="lnr lnr-cross" />
                                     </div>
@@ -310,7 +308,7 @@ class Home extends Component {
                                 <p><b>Technologies Used: </b> 
                                     <span>HTML5, CSS3, Bootstrap, JavaScript, mySQL, jquery, Laravel</span>
                                 </p>
-                                <a href="https://github.com/victoria-umoh/chow" target="_blank" class="btn btn-danger btn-lg">Visit Project</a>
+                                <a href="https://github.com/victoria-umoh/chow" target="_blank" rel="noopener noreferrer" class="btn btn-danger btn-lg">Visit Project</a>
                                 </div>
                             </div>
                             </div>
@@ -332,52 +330,10 @@ class Home extends Component {
                                 <p><b>Technologies Used: </b> 
                                     <span>HTML5, CSS3, Bootstrap, JavaScript, mySQL, Ajax, jquery, Laravel</span>
                                 </p>
-                                <a href="#" class="btn btn-danger btn-lg">Visit Project</a>
+                                <button class="btn btn-danger btn-lg">Visit Project</button>
                                 </div>
                             </div>
                             </div>
-
-                            {/* <div className="col-lg-4 col-md-6 all upcoming">
-                            <div className="portfolio_box">
-                                <div className="single_portfolio">
-                                <img className="img-fluid w-100" src="asset/img/portfolio/p5.jpg" alt="" />
-                                <div className="overlay" />
-                                <a href="asset/img/portfolio/p6.jpg" className="img-gal">
-                                    <div className="icon">
-                                    <span className="lnr lnr-cross" />
-                                    </div>
-                                </a>
-                                </div>
-                                <div className="short_info">
-                                <h4>E-Commerce Site</h4><br></br>
-                                <p><b>Technologies Used: </b> 
-                                    <span>HTML5, CSS3, Bootstrap, JavaScript, mySQL, Ajax, jquery, Laravel</span>
-                                </p>
-                                <a href="#" class="btn btn-danger btn-lg">Visit Project</a>
-                                </div>
-                            </div>
-                            </div> */}
-
-                            {/* <div className="col-lg-4 col-md-6 all popular">
-                            <div className="portfolio_box">
-                                <div className="single_portfolio">
-                                <img className="img-fluid w-100" src="asset/projects/earlycare.png" alt="" />
-                                <div className="overlay" />
-                                <a href="asset/projects/earlycare.png" className="img-gal">
-                                    <div className="icon">
-                                    <span className="lnr lnr-cross" />
-                                    </div>
-                                </a>
-                                </div>
-                                <div className="short_info">
-                                <h4>School Registration Site</h4><br></br>
-                                <p><b>Technologies Used: </b> 
-                                    <span>HTML5, CSS3, Bootstrap, JavaScript, mySQL, Ajax, jquery, Laravel</span>
-                                </p>
-                                <button href="#" class="btn btn-danger btn-lg">Visit Project</button>
-                                </div>
-                            </div>
-                            </div> */}
 
                             <div className="col-lg-4 col-md-6 all upcoming">
                             <div className="portfolio_box">
@@ -395,7 +351,7 @@ class Home extends Component {
                                 <p><b>Technologies Used: </b> 
                                     <span>HTML5, CSS3, Bootstrap, JavaScript, mySQL, Ajax, jquery, Laravel</span>
                                 </p>
-                                <button href="#" class="btn btn-danger btn-lg">Visit Project</button>
+                                <button class="btn btn-danger btn-lg">Visit Project</button>
                                 </div>
                             </div>
                             </div>
@@ -420,17 +376,17 @@ class Home extends Component {
                             <div class="col-lg-12">
                                 <div class="footer_top flex-column">
                                     <div class="footer_logo">
-                                        <a href="#">
+                                        <button>
                                             <img src="img/logo.png" alt="" />
-                                        </a>
+                                        </button>
                                     </div>
                                     <div class="footer_social socialIcons">
-                                        <a href="mailto:victoriasuave07@gmail.com"  target="_blank"><FontAwesomeIcon size="2xl" icon={faEnvelope} /></a>
-                                        <a href="https://github.com/victoria-umoh" target="_blank"><FontAwesomeIcon size="2xl" icon={faGithub} /></a>
-                                        <a href="https://facebook.com/vickygurero" target="_blank"><FontAwesomeIcon size="2xl" icon={faFacebook} /></a>
-                                        <a href="https://x.com/vickee571" target="_blank"><FontAwesomeIcon size="2xl" icon={faTwitter} /></a>                                        <FontAwesomeIcon icon="fa-brands fa-x-twitter" />
-                                        <a href="https://instagram.com/st.victoria_" target="_blank"><FontAwesomeIcon size="2xl" icon={faInstagram} /></a>
-                                        <a href="https://linkedin.com/in/victoria-umoh-1a78a3108" target="_blank"><FontAwesomeIcon size="2xl" icon={faLinkedin} /></a>
+                                        <a href="mailto:victoriasuave07@gmail.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faEnvelope} /></a>
+                                        <a href="https://github.com/victoria-umoh" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faGithub} /></a>
+                                        <a href="https://facebook.com/vickygurero" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faFacebook} /></a>
+                                        <a href="https://x.com/vickee571" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faTwitter} /></a>                                        <FontAwesomeIcon icon="fa-brands fa-x-twitter" />
+                                        <a href="https://instagram.com/st.victoria_" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faInstagram} /></a>
+                                        <a href="https://linkedin.com/in/victoria-umoh-1a78a3108" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faLinkedin} /></a>
                                     </div>
                                 </div>
                             </div>
