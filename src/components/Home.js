@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 // import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Contact from './Contact';
+// import Contact from './Contact';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
@@ -33,7 +33,7 @@ class Home extends Component {
                             </div>
                             <div className="col-lg-5">
                             <div className="home_right_img">
-                                <img className="rounded-pill" src="asset/img/banner/vic.jpg" alt="profile photo" width="400" />
+                                <img className="rounded-pill" src="asset/img/banner/vic.jpg" alt="" width="400" />
                             </div>
                             </div>
                         </div>
