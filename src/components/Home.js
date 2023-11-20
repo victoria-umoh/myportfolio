@@ -376,9 +376,6 @@ class Home extends Component {
                             <div class="col-lg-12">
                                 <div class="footer_top flex-column">
                                     <div class="footer_logo">
-                                        <button>
-                                            <img src="img/logo.png" alt="" />
-                                        </button>
                                     </div>
                                     <div class="footer_social socialIcons">
                                         <a href="mailto:victoriasuave07@gmail.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faEnvelope} /></a>
