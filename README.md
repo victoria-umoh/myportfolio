@@ -14,7 +14,7 @@ Welcome to my personal portfolio! This project showcases my skills and projects,
 
 
 ## Demo
-See my portfolio live at [Your Portfolio Link](https://www.your-portfolio.com/) or 
+See my portfolio live at (https://viques-portfolio.netlify.app/) or 
 Check out the screenshots below:
 https://drive.google.com/file/d/1E0Hz4bFI1SlG5Adi4HzPRJDmKiQBPugA/view?usp=sharing
 
