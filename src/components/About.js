@@ -16,7 +16,7 @@ class About extends Component{
                     <div className="container">
                     <div className="row">
                             <div className="col-lg-12">
-                                <div className="main_title text-center">
+                                <div className="main_title text-center mt-5">
                                 <h2>About Me </h2>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ class About extends Component{
                                         I am driven by a committment to delivering high-quality, scalable solutions from concept to completion and 
                                         can adapt to new technologies and methodologies.
                                     </p>
-                                    <a className="primary_btn text-decoration-none" href="../asset/resume/victoria_umoh.pdf" target="_blank"><span>Download CV</span></a>
+                                    <a className="primary_btn text-decoration-none" href="../asset/resume/victoria_umoh.pdf" target="_blank" rel="noopener noreferrer"><span>Download CV</span></a>
                                 </div>
                             </div>
                         </div>
@@ -248,7 +248,7 @@ class About extends Component{
                                     <p><b>Technologies Used: </b> 
                                         <span>HTML5, CSS3, Bootstrap, JavaScript, Ajax, mySQL, jquery, PHP</span>
                                     </p>
-                                    <button class="btn btn-danger btn-lg">Visit Project</button>
+                                    <a href="https://early-care.netlify.app" target="_blank" rel="noopener noreferrer" className="primary_btn text-decoration-none"><span>Visit Project</span></a>
                                     </div>
                                 </div>
                                 </div>
@@ -269,7 +269,7 @@ class About extends Component{
                                     <p><b>Technologies Used: </b> 
                                         <span>HTML5, CSS3, Bootstrap, JavaScript, mySQL, jquery, Laravel</span>
                                     </p>
-                                    <button href="https://github.com/victoria-umoh/chow" target="_blank" rel="noopener noreferrer" class="btn btn-danger btn-lg">Visit Project</button>
+                                    <a href="https://github.com/victoria-umoh/chow" target="_blank" rel="noopener noreferrer" class="primary_btn text-decoration-none"><span>Visit Project</span></a>
                                     </div>
                                 </div>
                                 </div>
@@ -319,7 +319,7 @@ class About extends Component{
                                 <div className="col-lg-4 col-md-6 all upcoming">
                                 <div className="portfolio_box">
                                     <div className="single_portfolio">
-                                    <img className="img-fluid w-100" src="asset/img/portfolio/p5.jpg" alt="" />
+                                    <img className="img-fluid w-100" src="asset/img/portfolio/ecommerce.jpg" alt="" />
                                     <div className="overlay" />
                                     <a href="asset/img/portfolio/p6.jpg" className="img-gal">
                                         <div className="icon">
@@ -328,11 +328,11 @@ class About extends Component{
                                     </a>
                                     </div>
                                     <div className="short_info">
-                                    <h4>Real Estate Site</h4><br></br>
+                                    <h4>E-Commerce Website</h4><br></br>
                                     <p><b>Technologies Used: </b> 
                                         <span>HTML5, CSS3, Bootstrap, JavaScript, mySQL, Ajax, jquery, Laravel</span>
                                     </p>
-                                    <button class="btn btn-danger btn-lg">Visit Project</button>
+                                    <button class="primary_btn"><span>Visit Project</span></button>
                                     </div>
                                 </div>
                                 </div>
@@ -340,7 +340,7 @@ class About extends Component{
                                 <div className="col-lg-4 col-md-6 all upcoming">
                                 <div className="portfolio_box">
                                     <div className="single_portfolio">
-                                    <img className="img-fluid w-100" src="asset/img/portfolio/p5.jpg" alt="" />
+                                    <img className="img-fluid w-100" src="asset/img/portfolio/realestate.jpg" alt="" />
                                     <div className="overlay" />
                                     <a href="asset/img/portfolio/p6.jpg" className="img-gal">
                                         <div className="icon">
@@ -349,11 +349,11 @@ class About extends Component{
                                     </a>
                                     </div>
                                     <div className="short_info">
-                                    <h4>Real Estate Site</h4><br></br>
+                                    <h4>Real Estate Website</h4><br></br>
                                     <p><b>Technologies Used: </b> 
                                         <span>HTML5, CSS3, Bootstrap, JavaScript, mySQL, Ajax, jquery, Laravel</span>
                                     </p>
-                                    <button class="btn btn-danger btn-lg">Visit Project</button>
+                                    <button class="primary_btn"><span>Visit Project</span></button>
                                     </div>
                                 </div>
                                 </div>

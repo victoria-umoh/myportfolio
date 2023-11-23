@@ -55,7 +55,7 @@ class Portfolio extends Component{
                                     <p><b>Technologies Used: </b> 
                                         <span>HTML5, CSS3, Bootstrap, JavaScript, Ajax, mySQL, jquery, PHP</span>
                                     </p>
-                                    <a href="https://early-care.netlify.app" target="_blank" rel="noopener noreferrer" class="btn btn-danger btn-lg">Visit Project</a>
+                                    <a href="https://early-care.netlify.app" target="_blank" rel="noopener noreferrer" className="primary_btn text-decoration-none"><span>Visit Project</span></a>
                                     </div>
                                 </div>
                                 </div>
@@ -76,7 +76,7 @@ class Portfolio extends Component{
                                     <p><b>Technologies Used: </b> 
                                         <span>HTML5, CSS3, Bootstrap, JavaScript, mySQL, jquery, Laravel</span>
                                     </p>
-                                    <a href="https://github.com/victoria-umoh/chow" target="_blank" rel="noopener noreferrer" class="btn btn-danger btn-lg">Visit Project</a>
+                                    <a href="https://github.com/victoria-umoh/chow" target="_blank" rel="noopener noreferrer" class="primary_btn text-decoration-none"><span>Visit Project</span></a>
                                     </div>
                                 </div>
                                 </div>
@@ -135,11 +135,11 @@ class Portfolio extends Component{
                                     </a>
                                     </div>
                                     <div className="short_info">
-                                    <h4>Real Estate Site</h4><br></br>
+                                    <h4>E-Commerce Website</h4><br></br>
                                     <p><b>Technologies Used: </b> 
                                         <span>HTML5, CSS3, Bootstrap, JavaScript, mySQL, Ajax, jquery, Laravel</span>
                                     </p>
-                                    <button href="#" class="btn btn-danger btn-lg">Visit Project</button>
+                                    <button class="primary_btn text-decoration-none"><span>Visit Project</span></button>
                                     </div>
                                 </div>
                                 </div>
@@ -147,7 +147,7 @@ class Portfolio extends Component{
                                 <div className="col-lg-4 col-md-6 all upcoming">
                                 <div className="portfolio_box">
                                 <div className="single_portfolio">
-                                <img className="img-fluid w-100" src="asset/img/portfolio/p5.jpg" alt="" />
+                                <img className="img-fluid w-100" src="asset/img/portfolio/realestate.jpg" alt="" />
                                 <div className="overlay" />
                                 <a href="asset/img/portfolio/p6.jpg" className="img-gal">
                                     <div className="icon">
@@ -156,11 +156,11 @@ class Portfolio extends Component{
                                 </a>
                                 </div>
                                 <div className="short_info">
-                                <h4>Real Estate Site</h4><br></br>
+                                <h4>Real Estate Website</h4><br></br>
                                 <p><b>Technologies Used: </b> 
                                     <span>HTML5, CSS3, Bootstrap, JavaScript, mySQL, Ajax, jquery, Laravel</span>
                                 </p>
-                                <button href="#" class="btn btn-danger btn-lg">Visit Project</button>
+                                <button class="primary_btn text-decoration-none"><span>Visit Project</span></button>
                                 </div>
                             </div>
                             </div>
