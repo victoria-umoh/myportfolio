@@ -258,7 +258,7 @@ class Home extends Component {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="main_title text-center">
-                                <h2>My Projects </h2>
+                                <h2>My Projects</h2>
                                 </div>
                             </div>
                         </div>
@@ -346,7 +346,7 @@ class Home extends Component {
                                 </a>
                                 </div>
                                 <div className="short_info">
-                                <h4>Real Estate Website</h4><br></br>
+                                <h4>Real Estate Website</h4> <br></br>
                                 <p><b>Technologies Used: </b> 
                                     <span>HTML5, CSS3, Bootstrap, JavaScript, mySQL, Ajax, jquery, Laravel</span>
                                 </p>
