@@ -1,9 +1,8 @@
 import React, {Component} from "react";
-// import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-// import Contact from './Contact';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faEnvelope, faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 
 
@@ -274,7 +273,7 @@ class Home extends Component {
                             <div className="col-lg-4 col-md-6 all popular">
                                 <div className="portfolio_box">
                                     <div className="single_portfolio">
-                                        <img className="img-fluid w-100" src="asset/projects/earlycare.png" alt="" />
+                                        <div style={{width: '400px', height:'200px'}}><img className="img-fluid w-100 h-100" src="asset/projects/earlycare.png" alt="" /></div>
                                         <div className="overlay" />
                                         <a href="asset/projects/earlycare.png" className="img-gal">
                                             <div className="icon">
@@ -294,7 +293,7 @@ class Home extends Component {
                             <div className="col-lg-4 col-md-6 all popular">
                             <div className="portfolio_box">
                                 <div className="single_portfolio">
-                                <img className="img-fluid w-100" src="asset/projects/chow.png" alt="" />
+                                <div style={{width: '400px', height:'200px'}}><img className="img-fluid w-100 h-100" src="asset/projects/chow.png" alt="" /></div>
                                 <div className="overlay" />
                                 <a href="asset/projects/chow.png" className="img-gal">
                                     <div className="icon">
@@ -315,7 +314,7 @@ class Home extends Component {
                             <div className="col-lg-4 col-md-6 all popular">
                                 <div className="portfolio_box w-100 h-100">
                                     <div className="single_portfolio">
-                                    <img className="img-fluid w-100" src="asset/projects/schoolhouse.png" alt="" />
+                                    <div style={{width: '400px', height:'200px'}}><img className="img-fluid w-100 h-100" src="asset/projects/schoolhouse.png" alt="" /></div>
                                     <div className="overlay" />
                                     <a href="asset/projects/schoolhouse.png" className="img-gal">
                                         <div className="icon">
@@ -326,7 +325,7 @@ class Home extends Component {
                                     <div className="short_info">
                                     <h4>School Registration Website</h4><br></br>
                                     <p><b>Technologies Used: </b> 
-                                        <span>HTML5, CSS3, Bootstrap, JavaScript, JQuery</span>
+                                        <span>HTML5, CSS3, Bootstrap, JavaScript, Jquery</span>
                                     </p>
                                     <a href="https://school-house.netlify.app/" class="primary_btn text-decoration-none"><span>Visit Project</span></a>
                                     </div>
@@ -337,7 +336,7 @@ class Home extends Component {
                             <div className="col-lg-4 col-md-6 all upcoming">
                             <div className="portfolio_box">
                                 <div className="single_portfolio">
-                                <img className="img-fluid w-100" src="asset/projects/ecommerce.jpg" alt="" />
+                                <div style={{width: '400px', height:'200px'}}><img className="img-fluid w-100 h-100" src="asset/projects/ecommerce.jpg" alt="" /></div>
                                 <div className="overlay" />
                                 <a href="asset/projects/ecommerce.jpg" className="img-gal">
                                     <div className="icon">
@@ -358,7 +357,7 @@ class Home extends Component {
                             <div className="col-lg-4 col-md-6 all upcoming">
                             <div className="portfolio_box">
                                 <div className="single_portfolio">
-                                <img className="img-fluid w-100" src="asset/projects/realestate.jpg" alt="" />
+                                <div style={{width: '400px', height:'200px'}}><img className="img-fluid w-100 h-100" src="asset/projects/realestate.jpg" alt="" /></div>
                                 <div className="overlay" />
                                 <a href="asset/projects/realestate.jpg" className="img-gal">
                                     <div className="icon">
@@ -399,11 +398,11 @@ class Home extends Component {
                                 <div class="footer_top flex-column">
                                     <div class="footer_logo">
                                     </div>
-                                    <div class="footer_social socialIcons">
+                                    <div className="footer_social">
                                         <a href="mailto:victoriasuave07@gmail.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faEnvelope} /></a>
                                         <a href="https://github.com/victoria-umoh" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faGithub} /></a>
                                         <a href="https://facebook.com/vickygurero" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faFacebook} /></a>
-                                        <a href="https://x.com/vickee571" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faTwitter} /></a>                                        <FontAwesomeIcon icon="fa-brands fa-x-twitter" />
+                                        <a href="https://x.com/vickee571" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faTwitter} /></a>
                                         <a href="https://instagram.com/st.victoria_" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faInstagram} /></a>
                                         <a href="https://linkedin.com/in/victoria-umoh-1a78a3108" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faLinkedin} /></a>
                                     </div>

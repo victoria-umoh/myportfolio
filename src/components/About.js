@@ -219,7 +219,7 @@ class About extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="main_title text-center">
-                                <h2>My Projects </h2>
+                                <h2>My Projects</h2>
                                 </div>
                             </div>
                         </div>
@@ -231,53 +231,52 @@ class About extends Component{
                             </ul>
                         </div>
                         <div className="filters-content">
-                            <div className="row portfolio-grid justify-content-center">
-                                <div className="col-lg-4 col-md-6 all popular">
+                        <div className="row portfolio-grid justify-content-center">
+                            <div className="col-lg-4 col-md-6 all popular">
                                 <div className="portfolio_box">
                                     <div className="single_portfolio">
-                                    <img className="img-fluid w-100" src="asset/projects/earlycare.png" alt="" />
-                                    <div className="overlay" />
-                                    <a href="asset/projects/earlycare.png" className="img-gal">
-                                        <div className="icon">
-                                        <span className="lnr lnr-cross" />
-                                        </div>
-                                    </a>
+                                        <div style={{width: '400px', height:'200px'}}><img className="img-fluid w-100 h-100" src="asset/projects/earlycare.png" alt="" /></div>
+                                        <div className="overlay" />
+                                        <a href="asset/projects/earlycare.png" className="img-gal">
+                                            <div className="icon">
+                                            <span className="lnr lnr-cross" />
+                                            </div>
+                                        </a>
                                     </div>
                                     <div className="short_info">
                                     <h4>Personal healthcare monitor app</h4><br></br>
                                     <p><b>Technologies Used: </b> 
                                         <span>HTML5, CSS3, Bootstrap, JavaScript, Ajax, mySQL, jquery, PHP</span>
                                     </p>
-                                    <a href="https://early-care.netlify.app" className="primary_btn text-decoration-none"><span>Visit Project</span></a>
-                                    </div>
+                                    <a href="https://early-care.netlify.app" target="_blank" rel="noopener noreferrer" className="primary_btn text-decoration-none"><span>Visit Project</span></a>                                    </div>
                                 </div>
-                                </div>
+                            </div>
 
-                                <div className="col-lg-4 col-md-6 all popular">
-                                <div className="portfolio_box">
-                                    <div className="single_portfolio">
-                                    <img className="img-fluid w-100" src="asset/projects/chow.png" alt="" />
-                                    <div className="overlay" />
-                                    <a href="asset/projects/chow.png" className="img-gal">
-                                        <div className="icon">
-                                        <span className="lnr lnr-cross" />
-                                        </div>
-                                    </a>
+                            <div className="col-lg-4 col-md-6 all popular">
+                            <div className="portfolio_box">
+                                <div className="single_portfolio">
+                                <div style={{width: '400px', height:'200px'}}><img className="img-fluid w-100 h-100" src="asset/projects/chow.png" alt="" /></div>
+                                <div className="overlay" />
+                                <a href="asset/projects/chow.png" className="img-gal">
+                                    <div className="icon">
+                                    <span className="lnr lnr-cross" />
                                     </div>
-                                    <div className="short_info">
-                                    <h4>Restaurant Management App</h4><br></br>
-                                    <p><b>Technologies Used: </b> 
-                                        <span>HTML5, CSS3, Bootstrap, JavaScript, mySQL, jquery, Laravel</span>
-                                    </p>
-                                    <a href="https://github.com/victoria-umoh/chow" class="primary_btn text-decoration-none"><span>Visit Project</span></a>
-                                    </div>
+                                </a>
                                 </div>
+                                <div className="short_info">
+                                <h4>Restaurant Management App</h4><br></br>
+                                <p><b>Technologies Used: </b> 
+                                    <span>HTML5, CSS3, Bootstrap, JavaScript, mySQL, jquery, Laravel</span>
+                                </p>
+                                <a href="https://github.com/victoria-umoh/chow" class="primary_btn text-decoration-none"><span>Visit Project</span></a>
                                 </div>
+                            </div>
+                            </div>
 
-                                <div className="col-lg-4 col-md-6 all popular">
+                            <div className="col-lg-4 col-md-6 all popular">
                                 <div className="portfolio_box w-100 h-100">
                                     <div className="single_portfolio">
-                                    <img className="img-fluid w-100" src="asset/projects/schoolhouse.png" alt="" />
+                                    <div style={{width: '400px', height:'200px'}}><img className="img-fluid w-100 h-100" src="asset/projects/schoolhouse.png" alt="" /></div>
                                     <div className="overlay" />
                                     <a href="asset/projects/schoolhouse.png" className="img-gal">
                                         <div className="icon">
@@ -288,97 +287,58 @@ class About extends Component{
                                     <div className="short_info">
                                     <h4>School Registration Website</h4><br></br>
                                     <p><b>Technologies Used: </b> 
-                                        <span>HTML5, CSS3, Bootstrap, JavaScript, JQuery</span>
+                                        <span>HTML5, CSS3, Bootstrap, JavaScript, Jquery</span>
                                     </p>
                                     <a href="https://school-house.netlify.app/" class="primary_btn text-decoration-none"><span>Visit Project</span></a>
                                     </div>
                                 </div>
                             </div>
+                         
 
-                                {/* <div className="col-lg-4 col-md-6 all upcoming">
-                                <div className="portfolio_box">
-                                    <div className="single_portfolio">
-                                    <img className="img-fluid w-100" src="asset/img/portfolio/p5.jpg" alt="" />
-                                    <div className="overlay" />
-                                    <a href="asset/img/portfolio/p6.jpg" className="img-gal">
-                                        <div className="icon">
-                                        <span className="lnr lnr-cross" />
-                                        </div>
-                                    </a>
+                            <div className="col-lg-4 col-md-6 all upcoming">
+                            <div className="portfolio_box">
+                                <div className="single_portfolio">
+                                <div style={{width: '400px', height:'200px'}}><img className="img-fluid w-100 h-100" src="asset/projects/ecommerce.jpg" alt="" /></div>
+                                <div className="overlay" />
+                                <a href="asset/projects/ecommerce.jpg" className="img-gal">
+                                    <div className="icon">
+                                    <span className="lnr lnr-cross" />
                                     </div>
-                                    <div className="short_info">
-                                    <h4>E-Commerce Site</h4><br></br>
-                                    <p><b>Technologies Used: </b> 
-                                        <span>HTML5, CSS3, Bootstrap, JavaScript, mySQL, Ajax, jquery, Laravel</span>
-                                    </p>
-                                    <button href="#" class="btn btn-danger btn-lg">Visit Project</button>
-                                    </div>
+                                </a>
                                 </div>
-                                </div>
-
-                                <div className="col-lg-4 col-md-6 all upcoming">
-                                <div className="portfolio_box">
-                                    <div className="single_portfolio">
-                                    <img className="img-fluid w-100" src="asset/img/portfolio/p5.jpg" alt="" />
-                                    <div className="overlay" />
-                                    <a href="asset/img/portfolio/p6.jpg" className="img-gal">
-                                        <div className="icon">
-                                        <span className="lnr lnr-cross" />
-                                        </div>
-                                    </a>
-                                    </div>
-                                    <div className="short_info">
-                                    <h4>E-Commerce Site</h4><br></br>
-                                    <p><b>Technologies Used: </b> 
-                                        <span>HTML5, CSS3, Bootstrap, JavaScript, mySQL, Ajax, jquery, Laravel</span>
-                                    </p>
-                                    <button href="#" class="btn btn-danger btn-lg">Visit Project</button>
-                                    </div>
-                                </div>
-                                </div> */}
-
-                                <div className="col-lg-4 col-md-6 all upcoming">
-                                <div className="portfolio_box">
-                                    <div className="single_portfolio">
-                                    <img className="img-fluid w-100" src="asset/projects/ecommerce.jpg" alt="" />
-                                    <div className="overlay" />
-                                    <a href="asset/projects/ecommerce.jpg" className="img-gal">
-                                        <div className="icon">
-                                        <span className="lnr lnr-cross" />
-                                        </div>
-                                    </a>
-                                    </div>
-                                    <div className="short_info">
-                                    <h4>E-Commerce Website</h4><br></br>
-                                    <p><b>Technologies Used: </b> 
-                                        <span>HTML5, CSS3, Bootstrap, JavaScript, mySQL, Ajax, jquery, Laravel</span>
-                                    </p>
-                                    <button class="primary_btn"><span>Visit Project</span></button>
-                                    </div>
-                                </div>
-                                </div>
-
-                                <div className="col-lg-4 col-md-6 all upcoming">
-                                <div className="portfolio_box">
-                                    <div className="single_portfolio">
-                                    <img className="img-fluid w-100" src="asset/projects/realestate.jpg" alt="" />
-                                    <div className="overlay" />
-                                    <a href="asset/projects/realestate.jpg" className="img-gal">
-                                        <div className="icon">
-                                        <span className="lnr lnr-cross" />
-                                        </div>
-                                    </a>
-                                    </div>
-                                    <div className="short_info">
-                                    <h4>Real Estate Website</h4><br></br>
-                                    <p><b>Technologies Used: </b> 
-                                        <span>HTML5, CSS3, Bootstrap, JavaScript, mySQL, Ajax, jquery, Laravel</span>
-                                    </p>
-                                    <button class="primary_btn"><span>Visit Project</span></button>
-                                    </div>
-                                </div>
+                                <div className="short_info">
+                                <h4>E-Commerce Website</h4><br></br>
+                                <p><b>Technologies Used: </b> 
+                                    <span>HTML5, CSS3, Bootstrap, JavaScript, mySQL, Ajax, jquery, Laravel</span>
+                                </p>
+                                <button class="primary_btn"><span>Visit Project</span></button>
                                 </div>
                             </div>
+                            </div>
+
+                            <div className="col-lg-4 col-md-6 all upcoming">
+                            <div className="portfolio_box">
+                                <div className="single_portfolio">
+                                <div style={{width: '400px', height:'200px'}}><img className="img-fluid w-100 h-100" src="asset/projects/realestate.jpg" alt="" /></div>
+                                <div className="overlay" />
+                                <a href="asset/projects/realestate.jpg" className="img-gal">
+                                    <div className="icon">
+                                    <span className="lnr lnr-cross" />
+                                    </div>
+                                </a>
+                                </div>
+                                <div className="short_info">
+                                <h4>Real Estate Website</h4> <br></br>
+                                <p><b>Technologies Used: </b> 
+                                    <span>HTML5, CSS3, Bootstrap, JavaScript, mySQL, Ajax, jquery, Laravel</span>
+                                </p>
+                                <button class="primary_btn"><span>Visit Project</span></button>
+                                </div>
+                            </div>
+                            </div>
+
+                            
+                        </div>
                         </div>
                     </div>
                 </section>
@@ -404,7 +364,7 @@ class About extends Component{
                                         <a href="mailto:victoriasuave07@gmail.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faEnvelope} /></a>
                                         <a href="https://github.com/victoria-umoh" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faGithub} /></a>
                                         <a href="https://facebook.com/vickygurero" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faFacebook} /></a>
-                                        <a href="https://x.com/vickee571" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faTwitter} /></a>                                        <FontAwesomeIcon icon="fa-brands fa-x-twitter" />
+                                        <a href="https://x.com/vickee571" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faTwitter} /></a>
                                         <a href="https://instagram.com/st.victoria_" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faInstagram} /></a>
                                         <a href="https://linkedin.com/in/victoria-umoh-1a78a3108" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faLinkedin} /></a>
                                     </div>
