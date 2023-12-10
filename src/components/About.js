@@ -38,7 +38,7 @@ class About extends Component{
                                     <p>
                                     </p>
                                     <p>I am familiar with database technologies such as MySQL, MongoDB, and SQL Server, and have experience working with version
-                                        control system such as Git and GutHub.
+                                        control system such as Git and GitHub.
                                     </p>
                                     <p>In addition to my technical skills, I have execellent problem solving abilities, strong communication skills, time management skills,
                                         and ability to work well in a team. 
@@ -227,7 +227,7 @@ class About extends Component{
                             <ul>
                                 <li className="active" data-filter="*">all</li>
                                 <li data-filter=".popular">completed</li>
-                                <li data-filter=".upcoming">upcoming</li>
+                                {/* <li data-filter=".upcoming">upcoming</li> */}
                             </ul>
                         </div>
                         <div className="filters-content">
@@ -235,7 +235,7 @@ class About extends Component{
                             <div className="col-lg-4 col-md-6 all popular">
                                 <div className="portfolio_box">
                                     <div className="single_portfolio">
-                                        <div style={{width: '400px', height:'200px'}}><img className="img-fluid w-100 h-100" src="asset/projects/earlycare.png" alt="" /></div>
+                                        <img className="img-fluid w-100 h-100" src="asset/projects/careapp.png" alt="" />
                                         <div className="overlay" />
                                         <a href="asset/projects/earlycare.png" className="img-gal">
                                             <div className="icon">
@@ -255,7 +255,7 @@ class About extends Component{
                             <div className="col-lg-4 col-md-6 all popular">
                             <div className="portfolio_box">
                                 <div className="single_portfolio">
-                                <div style={{width: '400px', height:'200px'}}><img className="img-fluid w-100 h-100" src="asset/projects/chow.png" alt="" /></div>
+                                    <img className="img-fluid w-100 h-100" src="asset/projects/chow.png" alt="" />
                                 <div className="overlay" />
                                 <a href="asset/projects/chow.png" className="img-gal">
                                     <div className="icon">
@@ -276,7 +276,7 @@ class About extends Component{
                             <div className="col-lg-4 col-md-6 all popular">
                                 <div className="portfolio_box w-100 h-100">
                                     <div className="single_portfolio">
-                                    <div style={{width: '400px', height:'200px'}}><img className="img-fluid w-100 h-100" src="asset/projects/schoolhouse.png" alt="" /></div>
+                                        <img className="img-fluid w-100 h-100" src="asset/projects/schoolhouse.png" alt="" />
                                     <div className="overlay" />
                                     <a href="asset/projects/schoolhouse.png" className="img-gal">
                                         <div className="icon">
@@ -287,7 +287,7 @@ class About extends Component{
                                     <div className="short_info">
                                     <h4>School Registration Website</h4><br></br>
                                     <p><b>Technologies Used: </b> 
-                                        <span>HTML5, CSS3, Bootstrap, JavaScript, Jquery</span>
+                                        <span>HTML5, CSS3, Bootstrap, JavaScript, Jquery, React</span>
                                     </p>
                                     <a href="https://school-house.netlify.app/" class="primary_btn text-decoration-none"><span>Visit Project</span></a>
                                     </div>
@@ -295,7 +295,7 @@ class About extends Component{
                             </div>
                          
 
-                            <div className="col-lg-4 col-md-6 all upcoming">
+                            {/* <div className="col-lg-4 col-md-6 all upcoming">
                             <div className="portfolio_box">
                                 <div className="single_portfolio">
                                 <div style={{width: '400px', height:'200px'}}><img className="img-fluid w-100 h-100" src="asset/projects/ecommerce.jpg" alt="" /></div>
@@ -335,7 +335,7 @@ class About extends Component{
                                 <button class="primary_btn"><span>Visit Project</span></button>
                                 </div>
                             </div>
-                            </div>
+                            </div> */}
 
                             
                         </div>
