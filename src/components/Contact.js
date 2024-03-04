@@ -7,7 +7,9 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 
 class Contact extends Component{
-
+ componentDidMount(){
+        window.scroll(0, 0)
+    }
     render(){
         return(
             <div>
@@ -25,8 +27,7 @@ class Contact extends Component{
                         <div class="row justify-content-center">
                             <div class="col-lg-12">
                                 <div class="footer_top flex-column">
-                                    <div class="footer_logo">
-                                    </div>
+                                    
                                     <div class="footer_social socialIcons">
                                         <a href="mailto:victoriasuave07@gmail.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faEnvelope} /></a>
                                         <a href="https://github.com/victoria-umoh" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faGithub} /></a>

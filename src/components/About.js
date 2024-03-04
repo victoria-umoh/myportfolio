@@ -3,10 +3,13 @@ import React, {Component} from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 
 class About extends Component{
+    componentDidMount(){
+        window.scroll(0, 0)
+    }
 
     render(){
         return(
@@ -15,8 +18,8 @@ class About extends Component{
                 <section className="about_area section_gap">
                     <div className="container">
                     <div className="row">
-                            <div className="col-lg-12 mt-5">
-                                <div className="main_title text-center mb-5">
+                            <div className="col-lg-12">
+                                <div className="main_title text-center">
                                 <h2>About Me </h2>
                                 </div>
                             </div>
@@ -46,7 +49,7 @@ class About extends Component{
                                         I am driven by a committment to delivering high-quality, scalable solutions from concept to completion and 
                                         can adapt to new technologies and methodologies.
                                     </p>
-                                    <a className="primary_btn text-decoration-none" href="../asset/resume/victoria_umoh.pdf" target="_blank" rel="noopener noreferrer"><span>Download CV</span></a>
+                                    <a className="primary_btn text-decoration-none" href="../asset/resume/victoria-umoh.pdf" target="_blank" rel="noopener noreferrer"><span>Download CV</span></a>
                                 </div>
                             </div>
                         </div>
@@ -244,11 +247,12 @@ class About extends Component{
                                         </a>
                                     </div>
                                     <div className="short_info">
-                                    <h4>Personal healthcare monitor app</h4><br></br>
-                                    <p><b>Technologies Used: </b> 
-                                        <span>HTML5, CSS3, Bootstrap, JavaScript, Ajax, mySQL, jquery, PHP</span>
-                                    </p>
-                                    <a href="https://early-care.netlify.app" target="_blank" rel="noopener noreferrer" className="primary_btn text-decoration-none"><span>Visit Project</span></a>                                    </div>
+                                        <h4>Personal health monitor app</h4><br></br>
+                                        <p><b>Technologies Used: </b> 
+                                            <span>HTML5, CSS3, Bootstrap, JavaScript, Ajax, mySQL, jquery, PHP</span>
+                                        </p>
+                                        <a href="https://early-care.netlify.app" target="_blank" rel="noopener noreferrer" className="primary_btn text-decoration-none"><span>Visit Project</span></a>
+                                    </div>
                                 </div>
                             </div>
 
@@ -345,33 +349,32 @@ class About extends Component{
                 {/*================End Portfolio Area =================*/}
 
                 {/* <!--================Contact Area =================--> */}
-                 <section class="contact_area section_gap">
+                <section class="">
                     <div class="container">
-                    <footer class="footer_area">
-                    <div className="row">
-                            <div className="col-lg-12">
-                                <div className="main_title text-center">
-                                <h2>Contact Me </h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="col-lg-12">
-                                <div class="footer_top flex-column">
-                                    <div class="footer_logo">
-                                    </div>
-                                    <div className="footer_social">
-                                        <a href="mailto:victoriasuave07@gmail.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faEnvelope} /></a>
-                                        <a href="https://github.com/victoria-umoh" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faGithub} /></a>
-                                        <a href="https://facebook.com/vickygurero" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faFacebook} /></a>
-                                        <a href="https://x.com/vickee571" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faTwitter} /></a>
-                                        <a href="https://instagram.com/st.victoria_" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faInstagram} /></a>
-                                        <a href="https://linkedin.com/in/victoria-umoh-1a78a3108" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faLinkedin} /></a>
+                        <footer class="footer_area">
+                            <div className="row pb-0 mb-0">
+                                    <div className="col-lg-12">
+                                        <div className="main_title text-center">
+                                        <h2>Contact Me </h2>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                     </footer>   
+
+                                <div class="row justify-content-center pt-0 mt-0" id="footer-row-social">
+                                    <div class="col-lg-12">
+                                        <div class= "flex-column">
+                                            <div className="footer_social">
+                                                <a href="mailto:victoriasuave07@gmail.com" target="_self" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faEnvelope} /></a>
+                                                <a href="https://github.com/victoria-umoh" target="_self" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faGithub} /></a>
+                                                <a href="https://facebook.com/vickygurero" target="_self" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faFacebook} /></a>
+                                                <a href="https://x.com/vickee571" target="_self" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faTwitter} /></a>
+                                                <a href="https://instagram.com/st.victoria_" target="_self" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faInstagram} /></a>
+                                                <a href="https://linkedin.com/in/victoria-umoh-1a78a3108" target="_self" rel="noopener noreferrer"><FontAwesomeIcon size="2xl" icon={faLinkedin} /></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </footer>   
                     </div>
                 </section>
                 {/* <!--================Contact Area =================--> */}

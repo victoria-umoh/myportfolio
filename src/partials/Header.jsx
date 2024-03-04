@@ -46,7 +46,7 @@ class Header extends Component {
                 <div className={headerClass}>
                     <header class="header_area">
                         <div class="main_menu">
-                            <nav class="navbar navbar-expand-lg navbar-light">
+                        <nav className="navbar navbar-expand-lg navbar-light" style={{ boxShadow: '0 0 20px rgba(0, 0, 0, 0.4)' }}>
                                 <div class="container">
                                     
                                     <h1><Link class="nav-link" to="/">VICTORIA</Link></h1>

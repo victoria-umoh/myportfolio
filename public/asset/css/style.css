@@ -67,7 +67,7 @@ button:focus {
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .section_gap {
-  padding: 200px 0; }
+  padding: 100px 0; }
   @media (max-width: 1199px) {
     .section_gap {
       padding: 80px 0; } }
@@ -2592,7 +2592,7 @@ h6 {
 /* Start Portfolio Area css
 ============================================================================================ */
 .portfolio_area {
-  padding-bottom: 120px; }
+  padding-bottom: 10px; }
   @media (max-width: 991px) {
     .portfolio_area {
       padding-bottom: 50px; } }
@@ -2991,8 +2991,8 @@ h6 {
   /* Footer Area css
   ============================================================================================ */
   .footer_area {
-    padding-top: 80px !important;
-    padding-bottom: 80px !important;
+    /* padding-top: 80px !important; */
+    /* padding-bottom: 80px !important; */
     background-image: none !important;
     background-color: #fcf8ff; }
 
@@ -3033,10 +3033,12 @@ h6 {
   /* Footer Area css
   ============================================================================================ */
   .footer_area .col-sm-6 {
-    margin-bottom: 30px; }
+    margin-bottom: 30px; 
+  }
 
   .footer_area .footer_inner {
-    margin-bottom: -30px; }
+    margin-bottom: -30px; 
+  }
 
   .news_widget {
     padding-left: 0px; }
@@ -3238,7 +3240,7 @@ h6 {
     content: none; }
 
 .footer_area {
-  padding: 120px 0;
+  padding: 50px;
   position: relative; }
   .footer_area:before {
     content: '';
@@ -3257,13 +3259,14 @@ h6 {
     .footer_area .footer_logo h4 {
       font-size: 20px;
       color: #000000;
-      margin-top: 35px;
+      /* margin-top: 35px; */
       text-transform: uppercase; }
   .footer_area .footer_social {
     text-align: center;
-    margin: 25px 0px 30px; }
+    margin-top: 0; 
+  }
     .footer_area .footer_social a {
-      padding: 0 20px; }
+      padding: 0 10px; }
       .footer_area .footer_social a i {
         color: #788489;
         font-size: 22px;
@@ -3283,6 +3286,10 @@ h6 {
     .footer_area .footer_bottom a {
       color: #854fee; }
 
+      #footer-row-social{
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+      }
 /* End Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
